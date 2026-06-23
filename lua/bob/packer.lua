@@ -3,7 +3,7 @@
 -- vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-	use { 'mcncl/alabaster.nvim' }
+	use { 'rebelot/kanagawa.nvim' }
 	use { 'nvim-lua/plenary.nvim' }
 	use {'nvim-telescope/telescope-fzf-native.nvim', build='make' }
 	use { 'nvim-telescope/telescope.nvim' }
