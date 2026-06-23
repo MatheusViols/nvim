@@ -7,4 +7,6 @@ return require('packer').startup(function(use)
 	use { 'nvim-lua/plenary.nvim' }
 	use {'nvim-telescope/telescope-fzf-native.nvim', build='make' }
 	use { 'nvim-telescope/telescope.nvim' }
+	use { 'MeanderingProgrammer/render-markdown.nvim' }
+
 end)
